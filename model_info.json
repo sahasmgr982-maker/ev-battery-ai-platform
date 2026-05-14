@@ -1,0 +1,25 @@
+{
+  "model_type": "RandomForestRegressor",
+  "n_estimators": 100,
+  "max_depth": 15,
+  "feature_columns": [
+    "cycle_number",
+    "ambient_temperature",
+    "Capacity",
+    "reference_capacity"
+  ],
+  "training_rows": 2028,
+  "test_rows": 508,
+  "metrics": {
+    "MAE": 0.2917,
+    "RMSE": 0.7282,
+    "R2_test": 0.9967,
+    "R2_train": 0.9994
+  },
+  "feature_importance": {
+    "cycle_number": 0.0077116193792201825,
+    "ambient_temperature": 0.012740007705844915,
+    "Capacity": 0.5358150385779266,
+    "reference_capacity": 0.4437333343370084
+  }
+}
